@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SU-Portfolio</title>
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <!-- 自作CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="page-header">
+        <h1><a href="./index.html"><img src="./img/rogo1.png" alt="ロゴ"></a></h1>
+        <nav class="nav-sp">
+            <ul class="main-nav">
+                <li><a href="./about.html">About</a></li>
+                <li>
+                    <details>
+                        <summary><a href="#works">Works</a></summary>
+                            <ul class="nav-inner">
+                                <li><a href="./works-web.html">WEBデザイン</a></li>
+                                <li><a href="./works-banner.html">WEBバナー</a></li>
+                                <li><a href="./works-print.html">印刷物</a></li>
+                                <li><a href="./works-movie.html">動画</a></li>
+                                <li><a href="./works-lp.html">LP</a></li>
+                            </ul>
+                    </details>
+                </li>
+                <li><a href="./index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="ham-btn" id="hamBtn" type="button">
+            <span class="ham_line">
+                <span class="visually-hidden">メニュー開閉</span>
+            </span>
+        </button>  
+    </header>
+    <main>
+        <h2>About</h2>
+        <section class="profile wrapper">
+            <div class="profile-inner">
+                <img class="about-img" src="./img/my.png" alt="自画像">
+                <p class="about-name" data-en="Urahashi Satoko">浦橋慧子<br></p>
+            </div>
+            <div class="profile-text">
+                <img src="./img/斜線.png" alt="黄色の斜線">
+                <p>短期大学卒業後、保育園に12年勤めました。
+                    新しいスキルを身につけたいと決意し、退職後は以前から興味のあったWEBデザインについて学び始めました。
+                    幼少期から絵を描くこと、工作、手芸など、物づくりが好きです。
+                </p>
+                <img src="./img/斜線.png" alt="">
+            </div>
+        </section>
+        <section class="about-can"> 
+            <div class="title-h3">
+                <h3>できること</h3>
+            </div>
+            <div class="can">
+                <div class="can-innner">
+                    <div class="can-title">
+                        <h4>デザイン</h4>
+                    </div>
+                    <ul class="can-list">
+                        <li>Illustrator</li>
+                        <li>Photoshop</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="can-innner">
+                    <div class="can-title">
+                        <h4>コーディング</h4>
+                    </div>
+                    <ul class="can-list">
+                        <li>Visual Studio Code</li>
+                        <li>HTML , CSS</li>
+                        <li>javascript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="about-favorite wrapper">
+            <div class="title-h3">
+                <h3>すきなこと</h3>
+            </div>
+            <ul class="favorite-inner">
+                <div class="favorite-item">
+                    <li><img class="favorite-img" src="./img/dog1.png" alt="犬のイラスト"></li>
+                    <li>犬</li>
+                    <p>犬と一緒にお出かけするのが週末の楽しみです。</p>
+                </div>
+                <div class="favorite-item">
+                    <li><img class="favorite-img" src="./img/drawing.png" alt=""></li>
+                    <li>イラスト制作</li>
+                    <p>このWEBサイトで使用しているイラストは全てIllustratorで自主制作しました。</p>
+                </div>
+                <div class="favorite-item">
+                    <li><img class="favorite-img" src="./img/flower-pot.png" alt=""></li>
+                    <li>園芸</li>
+                    <p>天気の良い日には庭の手入れをするのが癒しの時間です。</p>
+                </div>
+            </ul>
+        </section>
+       
+    </main>
+    <footer>
+        <small>&copy; 2025 Satoko Urahashi</small>
+    </footer>
+    <script src="./js/script.js"></script> 
+</body>
+</html>
