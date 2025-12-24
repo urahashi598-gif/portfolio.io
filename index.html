@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>su-Portfolio</title>
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- 自作CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="page-header">
+            <h1><a href="./index.html"><img class="logo" src="./img/rogo1.png" alt="トップに戻るロゴ"></a></h1>
+            <nav class="nav-sp">
+                <ul class="main-nav">
+                    <li><a href="./about.html">About</a></li>
+                    <li>
+                        <details>
+                            <summary><a href="#works">Works</a></summary>
+                                <ul class="nav-inner">
+                                    <li><a href="./works-web.html">WEBデザイン</a></li>
+                                    <li><a href="./works-banner.html">WEBバナー</a></li>
+                                    <li><a href="./works-print.html">印刷物</a></li>
+                                    <li><a href="./works-movie.html">動画</a></li>
+                                    <li><a href="./works-lp.html">LP</a></li>
+                                </ul>
+                        </details>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="ham-btn" id="hamBtn" type="button">
+                <span class="ham_line">
+                    <span class="visually-hidden">メニュー開閉</span>
+                </span>
+            </button>
+
+    </header>
+    <main class="wrapper">
+        <div class="portfolio-title">
+            <div>
+                <h2 id="top-h2">
+                    Portfolio&nbsp;site <br>
+                    <span class="su">satoko urahashi</span>
+                </h2>
+
+            </div>
+            <img class="header-img" src="./img/mainvisual.jpg" alt="山と犬の写真">
+        </div>
+        <section class="works" id="works">
+            <h2 class=".align-center">Works</h2>
+            <div class="works-top-item">
+                <a href="./works-web.html">
+                    <div class="works-top-content">
+                        <h3 class="top-h3">WEBデザイン</h3>
+                    </div>
+                </a>
+                <a href="./works-banner.html">
+                    <div class="works-top-content">
+                        <h3 class="top-h3">WEBバナー</h3>
+                    </div>
+                </a>
+                <a href="./works-print.html">
+                    <div class="works-top-content">
+                        <h3 class="top-h3">印刷物</h3>
+                    </div>
+                </a>
+                <a href="./works-movie.html">
+                    <div class="works-top-content">
+                        <h3 class="top-h3">動画</h3>
+                    </div>
+                </a>
+                <a href="./works-lp.html">
+                    <div class="works-top-content">
+                        <h3 class="top-h3">LP</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>About</h2>
+            <div>
+                <img class="about-img" src="./img/my.png" alt="自画像">
+                <a href="./about.html">
+                    <p class="name">Satoko Urahashi</p>
+                </a>
+            </div>
+        </section>
+        <section class="contact">
+            <h2 id="contact">Contact</h2>
+            <a class="buttn" href="mailto:example@example.com?subject=件名&body=本文">お問い合わせはこちら</a>
+        </section>
+    </main>
+    <footer>
+        <small>&copy; 2025 Satoko Urahashi</small>
+    </footer>
+    <script src="./js/script.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>su-Portfolio</title>
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <!-- Googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Noto+Sans+JP:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- 自作CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body id="works-body">
+    <header class="page-header">
+        <h1><a href="./index.html"><img src="./img/rogo1.png" alt=""></a></h1>
+        <nav class="nav-sp">
+            <ul class="main-nav">
+                <li><a href="./about.html">About</a></li>
+                <li>
+                    <details>
+                        <summary><a href="./index.html#works">Works</a></summary>
+                            <ul class="nav-inner">
+                                <li><a href="./works-web.html">WEBデザイン</a></li>
+                                <li><a href="./works-banner.html">WEBバナー</a></li>
+                                <li><a href="./works-print.html">印刷物</a></li>
+                                <li><a href="./works-movie.html">動画</a></li>
+                                <li><a href="./works-lp.html">LP</a></li>
+                            </ul>
+                    </details>
+                </li>
+                <li><a href="./index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="ham-btn" id="hamBtn" type="button">
+            <span class="ham_line">
+                <span class="visually-hidden">メニュー開閉</span>
+            </span>
+        </button>
+    </header>
+    <main class="wrapper">
+        <h2>LP</h2>
+        <section id="list1">
+            <div class="img-box">
+                <img class="works-img" src="./img/fitness-lp.jpg" alt="フィットネスジムのキャンペーンLP">
+            </div>
+            <h3 class="works-title">フィットネスジムのキャンペーンLP</h3>
+            <dl class="data">
+                <div class="data-inner">  
+                    <dt>制作時間</dt>
+                    <dd>18時間</dd>
+                </div>
+                <div class="data-inner">
+                    <dt>コンセプト</dt>
+                    <dd>
+                        <ul>
+                            <li>以前ジムを利用していて、一度離れた方をお得なキャンペーンで再入会を誘う。
+                            </li>
+                        </ul>
+                    </dd>
+                </div>
+                <div class="data-inner">
+                    <dt>ターゲット</dt>
+                    <dd>
+                        <ul>
+                            <li>10〜20代</li>
+                            <li>高校時代キャンペーンを利用してジムに通っていた方。</li>
+                        </ul>
+                    </dd>
+                </div>
+                <div class="data-inner">
+                    <dt>工夫した点</dt>
+                    <dd>
+                        <ul>
+                            <li>キャンペーンの内容が一目で伝わるようにファーストビューにキャンペーンの内容を編集した画像を配置しました。</li>
+                            <li>ユーザーの想定される悩みをページ上部に記述し興味を惹きつけるようにしました。</li>
+                            <li>公式アプリと連動したキャンペーンであるため、アプリをインストールしてもらえるようにアプリインストールサイトへのリンクを載せました</li>
+                            <li>月会費30%OFFの文字を目立たせました。</li>
+                        </ul>
+                    </dd>
+                </div>
+            </dl>
+        </section>
+        
+        
+    </main>
+    <footer>
+        <small>&copy; 2025 Satoko Urahashi</small>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
